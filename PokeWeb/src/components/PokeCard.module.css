@@ -1,0 +1,48 @@
+.PokeCard {
+  width: 200px;
+  border: 4px solid mediumvioletred;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+
+.PokeGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hovered {
+  background-color: plum;
+}
+
+.PokeForm {
+  width: 200px;
+  border: 4px solid red;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+  background-color: brown;
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Test {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.Button {
+  margin-inline: 20px;
+  background-color: mediumvioletred;
+  border: 3px solid rgba(233, 245, 220, 0.551);
+}
